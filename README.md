@@ -7,6 +7,9 @@
 Blowfish makes it easy to identify & stop fraud before it happens. Join the leading wallets protecting their users funds with the blowfish security engine. For more details on Blowfish, and for a full documentation reference, you can check https://blowfish.xyz/ and https://docs.blowfish.xyz/api-docs/ respectively.
 
 ## Install
+```sh
+npm i @k-xo/blowfish-js
+```
 
 ## Setup
 
