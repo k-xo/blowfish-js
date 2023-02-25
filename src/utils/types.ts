@@ -16,6 +16,25 @@ export interface ScanTransactionArgs extends ScanTransactionRequest {
   environment?: 'production' | 'sandbox';
 }
 
+export interface ScanMessageRequest {
+  network: 'mainnet' | 'goerli';
+  language?: string;
+  message: Message;
+  userAccount: string;
+  dappUrl: string;
+  chain: 'ethereum' | 'polygon';
+}
+
+export interface ScanMessageArgs extends ScanMessageRequest {
+  apiKey: string;
+  environment?: 'production' | 'sandbox';
+}
+
+export interface Message {
+  kind: string;
+  data: { types: any; primaryType: string; message: any; domain: any };
+}
+
 export interface Transaction {
   from: string;
   to: string;

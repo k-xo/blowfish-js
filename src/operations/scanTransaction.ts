@@ -55,6 +55,8 @@ export async function scanTransaction(args: ScanTransactionArgs) {
   } catch (err) {
     if (err instanceof AxiosError) {
       return err.response?.data;
+    } else {
+      return err;
     }
   }
 }
