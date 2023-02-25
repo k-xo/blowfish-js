@@ -16,6 +16,10 @@ npm i @k-xo/blowfish-js
 To setup a Blowfish instance, simply past your api key, which you can get from https://blowfish.xyz/, into the constructor, not some api keys only work for the 'free' blowfish url, the snippet below describes the differences in setup.
 
 ```js
+import { Blowfish } from '@k-xo/blowfish-js';
+// or
+const { Blowfish } = require('@k-xo/blowfish-ks');
+
 // If making requests to https://api.blowfish.xyz/
 const blowfish = new Blowfish(API_KEY);
 
