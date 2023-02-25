@@ -1,7 +1,5 @@
 export type Chain = 'ethereum' | 'solana' | 'polygon';
 
-export type ChainID = 1 | 5 | 101 | 102 | 103 | 137;
-
 export type Network = 'mainnet' | 'devnet' | 'testnet' | 'goerli';
 
 export interface ScanTransactionRequest {
@@ -15,6 +13,7 @@ export interface ScanTransactionRequest {
 
 export interface ScanTransactionArgs extends ScanTransactionRequest {
   apiKey: string;
+  environment?: 'production' | 'sandbox';
 }
 
 export interface Transaction {

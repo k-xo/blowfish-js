@@ -4,15 +4,21 @@ import { ScanTransactionRequest } from './utils/types';
 
 export default class Blowfish {
   apiKey: string;
+  environment: 'production' | 'sandbox' = 'production';
 
-  constructor(apiKey: string) {
+  constructor(
+    apiKey: string,
+    environment: 'production' | 'sandbox' = 'production'
+  ) {
     this.apiKey = apiKey;
+    this.environment = environment;
   }
 
   public async scanTransaction(args: ScanTransactionRequest) {
     return await scanTransaction({
       ...args,
       apiKey: this.apiKey,
+      environment: this.environment,
     });
   }
 
@@ -21,7 +27,7 @@ export default class Blowfish {
   }
 }
 
-const blowfish = new Blowfish('YOUR_API_KEY');
+const blowfish = new Blowfish('API_KEY', 'sandbox');
 
 async function main() {
   console.log(
