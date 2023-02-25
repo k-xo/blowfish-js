@@ -1,9 +1,8 @@
 {
-  "name": "blowfish-js",
+  "name": "@k-xo/blowfish-js",
   "version": "1.0.0",
   "description": "<p> <img title=\"Blowfish\" src= \"./assets/blowfishlogo.svg\" width=\"350px\"/> </p>",
   "main": "dist/index.js",
-  "private": true,
   "scripts": {
     "test": "jest",
     "start": "ts-node src/index.ts",
