@@ -1,7 +1,7 @@
 {
-  "name": "typescript-starter",
+  "name": "blowfish-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "<p> <img title=\"Blowfish\" src= \"./assets/blowfishlogo.svg\" width=\"350px\"/> </p>",
   "main": "dist/index.js",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "format": "prettier --write src/**/*.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "k-xo",
   "dependencies": {
     "axios": "1.3.4",
     "dotenv": "16.0.1"
@@ -26,5 +26,14 @@
     "ts-jest": "^29.0.5",
     "ts-node": "10.8.2",
     "typescript": "4.7.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-xo/blowfish-js.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-xo/blowfish-js/issues"
+  },
+  "homepage": "https://github.com/k-xo/blowfish-js#readme"
 }
