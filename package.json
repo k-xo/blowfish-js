@@ -1,13 +1,17 @@
 {
   "name": "@k-xo/blowfish-js",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "<p> <img title=\"Blowfish\" src= \"./assets/blowfishlogo.svg\" width=\"350px\"/> </p>",
-  "main": "dist/index.js",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "readme.md"
+  ],
   "scripts": {
     "test": "jest",
     "start": "ts-node src/index.ts",
     "typecheck": "tsc --noEmit",
-    "build": "tsc",
+    "build": "tsc -d",
     "format": "prettier --write src/**/*.ts"
   },
   "keywords": [],

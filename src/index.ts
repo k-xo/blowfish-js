@@ -30,3 +30,5 @@ export default class Blowfish {
     });
   }
 }
+
+module.exports = Blowfish;
