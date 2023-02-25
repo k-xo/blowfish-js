@@ -1,4 +1,4 @@
-import { ScanMessageRequest, ScanTransactionRequest } from '../utils/types';
+import { ScanMessageRequest } from '../utils/types';
 import Blowfish from '../index';
 
 require('dotenv').config();
