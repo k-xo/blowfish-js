@@ -8,6 +8,7 @@ on:
 
 env:
   NODE_VERSION: 16.x
+  API_KEY: ${{ secrets.API_KEY }}
 
 jobs:
   typecheck:
