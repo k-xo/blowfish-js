@@ -18,7 +18,7 @@ To setup a Blowfish instance, simply pass your api key, which you can get from h
 ```js
 import { Blowfish } from '@k-xo/blowfish-js';
 // or
-const { Blowfish } = require('@k-xo/blowfish-ks');
+const { Blowfish } = require('@k-xo/blowfish-js');
 
 // If making requests to https://api.blowfish.xyz/
 const blowfish = new Blowfish(API_KEY);
