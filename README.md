@@ -29,7 +29,7 @@ const blowfish = new Blowfish(API_KEY, 'sandbox');
 
 ## Scanning a transaction
 
-Scan transactions in order to receive recommended actions, tailored warnings and human-readable simulation results explaining what the transaction will do.
+Scan proposed transactions for malicious intent, simulate expected state changes if the transaction were to be submitted on-chain.
 
 ```js
 const tx_data = {
