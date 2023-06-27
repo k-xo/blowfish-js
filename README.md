@@ -58,3 +58,6 @@ const response = await blowfish.scanTransaction(tx_data);
 ## Scanning a Message
 
 Currently in Beta, -- check here for the full API specification -- https://docs.blowfish.xyz/api-docs/reference/api-reference/scan-message/evm
+
+
+(h/t) @njokuScript
